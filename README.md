@@ -16,9 +16,10 @@ A moving average is a technique to get an overall idea of the trends in a data s
 
 ### Prophet
 ![Prophet](https://user-images.githubusercontent.com/53213766/174355008-8a0d295e-f3a3-4d8d-811c-74544f12f6c7.png)
+
 FB-Prophet is an auto machine learning software that uses seasonality to predict data on a daily, weekly, monthly, and yearly basis. Seasonality is something that data observers notice recurring after a certain period of time; the best example of seasonality is the shift in ice-cream sales between winter and summer. This is critical for the greatest possible data fit. FbProphet can be used to fit and predict data based on any seasonality, and then to obtain components for such predictions, which can be changed in the trend of data based on weekly, monthly, and daily
 
-## Long-Short-Term Memory (LSTM)
+### Long-Short-Term Memory (LSTM)
 
 An LSTM is a Recurrent Neural Network that is able to store past information that is important, and forget the information that is not. It uses the short-term memory processes to create longer memory and introduces the concept of gates for controlling the flow of information in the network by having input, output and forget gates.
 
@@ -68,5 +69,5 @@ Fig 13: - Tabular representation of the RMSE values.
 ![image](https://user-images.githubusercontent.com/53213766/174354386-30e6b896-223a-4df0-a0a1-549df4633287.png)
 
 Thank You :)
-## - Sai Ganesh N
+### Sai Ganesh N
 
