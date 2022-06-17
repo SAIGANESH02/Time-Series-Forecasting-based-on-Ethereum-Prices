@@ -2,20 +2,20 @@
 
 The Ether cryptocurrency, which is based on the Ethereum project's blockchain for smart contracts, has long been the second most valuable cryptocurrency beside Bitcoin. In terms of time series analysis, despite its importance and the novel aspects of the entire Ethereum ledger ecosystem, Ether has received significantly less attention than Bitcoin. A machine learning-based time series analysis was used to anticipate the market price and stability of Ethereum in the Crypto-market. Time-series analysis can forecast future price fluctuations in Ethereum. For time series analysis, we employed LSTM, moving averages, ARIMA, and FBProphet as machine learning approaches.
 
-### Methods Used
+## Methods Used
 
-## Moving Average
+### Moving Average
 
 A moving average is a technique to get an overall idea of the trends in a data set; it is an average of any subset of numbers. This simple moving average model gives the next observation is the mean of all past observations creating a constantly updated average price.
 
-## ARIMA
+### ARIMA
 
 - Auto Regressive Integrated Moving Average (ARIMA) models explains a given time series based on its own past values, that is, its own lags (p) and the lagged forecast errors (q), so that equation can be used to forecast future values. The 'd' parameter represents the number of times that the data have to be differenced to produce a stationary signal that has a constant mean over time. This captures the integrated nature of ARIMA.
 
 - Auto ARIMA automatically generates the optimal combination of (p,q,d) which would be suitable for the data set to provide better forecasting.
 
-## Prophet
-![Prophet](https://user-images.githubusercontent.com/53213766/174353090-20d6ea00-d467-4b23-82c6-59c55519234b.png)
+### Prophet
+![Prophet](https://user-images.githubusercontent.com/53213766/174355008-8a0d295e-f3a3-4d8d-811c-74544f12f6c7.png)
 FB-Prophet is an auto machine learning software that uses seasonality to predict data on a daily, weekly, monthly, and yearly basis. Seasonality is something that data observers notice recurring after a certain period of time; the best example of seasonality is the shift in ice-cream sales between winter and summer. This is critical for the greatest possible data fit. FbProphet can be used to fit and predict data based on any seasonality, and then to obtain components for such predictions, which can be changed in the trend of data based on weekly, monthly, and daily
 
 ## Long-Short-Term Memory (LSTM)
@@ -24,7 +24,7 @@ An LSTM is a Recurrent Neural Network that is able to store past information tha
 
 ![LSTM](https://user-images.githubusercontent.com/53213766/174353414-de0db9fa-ed58-4ac0-bd58-aa09ccae606f.png)
 
-### Results
+## Results
 
 Fig 1: - Visualising Ethereum stock data from January 2018-2020.
 ![image](https://user-images.githubusercontent.com/53213766/174353939-7f0e3326-55b8-454a-8836-2a33db6055ae.png)
@@ -68,5 +68,5 @@ Fig 13: - Tabular representation of the RMSE values.
 ![image](https://user-images.githubusercontent.com/53213766/174354386-30e6b896-223a-4df0-a0a1-549df4633287.png)
 
 Thank You :)
-- Sai Ganesh N
+## - Sai Ganesh N
 
